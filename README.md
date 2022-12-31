@@ -1,10 +1,11 @@
-# ReactJS
+# Ejercicios sesiones 10, 11 y 12
 
-## Ejercicios sesiones 7, 8 y 9
+En este ejercicio tendréis que crear un componente el cual contenga un elemento, puede ser un rectángulo, cuadrado.
 
-En este ejercicio de React JS deberéis crear una lista, esta **lista tendrá dentro distintos contactos** y deberá cumplir con las siguientes funcionalidades:
+Las dimensiones del elemento serán de ancho 255px y de alto 255px y su color inicial tiene que ser negro.
 
-- Mostrar contacto.
-- Crear contacto.
-- Eliminar contacto.
-- Cambiar el estado del contacto entre Conectado y Desconectado.
+Dentro del componente crearéis varios métodos de captura del ratón que harán lo siguiente para que el color del elemento cambie:
+
+- Un método para que cuando el ratón entre en el contenedor, se dará un valor aleatorio (color RGB entre 0 y 255) para cambiar el color del componente.
+- Un método para que cuando salga el ratón del componente se detenga por completo el cambio de color.
+- Por último, un método en el que cuando se pulsa dos veces en el componente, se tiene que detener el cambio de color.
