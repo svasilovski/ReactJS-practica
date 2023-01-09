@@ -1,8 +1,7 @@
 # ReactJS
 
-## Ejercicios sesiones 13, 14 y 15
+## Ejercicios sesiones 16, 17 18
 
-Partiendo del proyecto final, deberéis utilizar crear un formulario con el que crear tareas. Para hacer esto usaréis:
-
-- Formik para el formulario.
-- Yup para las validaciones.
+Crear el sistema de enrutado de la aplicación en React:
+- Permitir la navegación de Login a Registro y viceversa
+- No podremos acceder a Tareas a no ser que nos hayamos logeado primero.

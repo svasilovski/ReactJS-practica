@@ -1,13 +1,20 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import TaskListComponent from './components/container/task_list';
+import TaskDashboard from './pages/TaskDashboard';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
-  return (
-    <div className="App">
-      <TaskListComponent></TaskListComponent>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/registro" element={<Register />} />
+            <Route path="/dashboard" element={<TaskDashboard />} />
+          </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

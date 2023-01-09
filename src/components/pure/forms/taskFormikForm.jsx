@@ -53,5 +53,3 @@ const TaskFormikForm = ({add, length}) => {
 }
 
 export default TaskFormikForm;
-
-
