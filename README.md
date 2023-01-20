@@ -1,10 +1,7 @@
 # ReactJS
 
-## Ejercicios sesiones 7, 8 y 9
+## Ejercicios sesiones 22, 23 y 24
 
-En este ejercicio de React JS deberéis crear una lista, esta **lista tendrá dentro distintos contactos** y deberá cumplir con las siguientes funcionalidades:
+Replicar desde cero el ejemplo de Redux que se ha realizado en la sesión 23, es importante asegurarse de haber asimilado y entendido todos los conceptos.
 
-- Mostrar contacto.
-- Crear contacto.
-- Eliminar contacto.
-- Cambiar el estado del contacto entre Conectado y Desconectado.
+Repositorio con el proyecto: https://gitlab.com/masajo/ob-react-redux.git
