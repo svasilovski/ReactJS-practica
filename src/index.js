@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 import { createAppStore } from './store/config/storeConfig'
 
 // We create the App Store
-let appStore = createAppStore()
+let appStore = createAppStore();
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

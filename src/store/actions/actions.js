@@ -17,13 +17,13 @@ export const addTodo = (text) => {
         type: ADD_TODO,
         payload: {
             id: nextTodoID ++,
-            text // text: text
+            text
         }
     }
 }
 
 /**
- * Status is complete or pending.
+ * 
  * @param {number} id 
  * @returns action TOGGLE_TODO
  */
@@ -37,7 +37,7 @@ export const toggleTodo = (id) => {
 }
 
 /**
- * Visibility Filter, complete, incomplete or all.
+ * 
  * @param {string} filter 
  * @returns action SET_VISIBILITY_FILTER
  */
