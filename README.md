@@ -1,10 +1,11 @@
 # ReactJS
 
-## Ejercicios sesiones 7, 8 y 9
+## Ejercicios sesiones 26 y 27
 
-En este ejercicio de React JS deberéis crear una lista, esta **lista tendrá dentro distintos contactos** y deberá cumplir con las siguientes funcionalidades:
+Utiliza useReducer y useContext para poder gestionar tareas en un proyecto de React. El proyecto debe permitir:
 
-- Mostrar contacto.
-- Crear contacto.
-- Eliminar contacto.
-- Cambiar el estado del contacto entre Conectado y Desconectado.
+- Crear tareas
+- Borrar tareas
+- Filtrar tareas
+
+Repo para uso de useReducer y useContext: https://gitlab.com/masajo/ob-react-usereducer
